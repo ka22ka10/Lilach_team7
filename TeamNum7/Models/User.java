@@ -8,4 +8,12 @@ public class User {
 	private String Password;
 	int ShopId;
 	
+	public User(String name,String ID,String Phone,String username,String Pass,int SHID) {
+		Name=name;
+		id=ID;
+		PhoneNum= Phone;
+		UserName=username;
+		Password=pass;
+		ShopId=SHID;
+	}
 }
