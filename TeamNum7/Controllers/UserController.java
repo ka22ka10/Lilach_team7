@@ -2,16 +2,16 @@ package Controllers;
 import Models;
 
 public class UserController {
-	void Delete_user(User user) {
+	void delete_user(String UserId) {
 		//TODO delete user from users tables in database.
 	}
-	void Block_Costumer(Costumer user) {
-		user.Status = 0;
+	void change_status(String UserId) {
+		//TODO change the costumer status to 1.
 	}
-	void Edit_Cridet_Card(Costumer user,String NewCridet) {
-		(Costumer)user.CridetCard=NewCreditCard;
+	void edit_cridet_card(String UserId,String NewCridet) {
+		//TODO change the cridet card info of this user in the database 
 	}
-	void Add_User() {
+	void add_user() {
 		//TODO add the variables to the new user, the variables come from sign-up. 
 		//user = new User()
 	}
