@@ -9,6 +9,6 @@ Student2: Anan Amara
 
 Student3: Shadi Mahameed
 
-Student4:
+Student4: Error 404 : Glory Not Found
 
-Student5:
+Student5: Ali AbedelHalim is missing
